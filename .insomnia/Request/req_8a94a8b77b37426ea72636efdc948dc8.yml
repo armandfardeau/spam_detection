@@ -1,0 +1,60 @@
+_id: req_8a94a8b77b37426ea72636efdc948dc8
+type: Request
+parentId: wrk_9da32551018b4eb1a798be647c81dc9b
+modified: 1672920381476
+created: 1672920185163
+url: http://localhost:8080/api
+name: Profile spam detection
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+        {
+            "id": 4,
+            "decidim_organization_id": 1,
+            "sign_in_count": 0,
+            "personal_url": "http://walter-murazik.co/chet_ritchie",
+            "about": "Non beatae consequatur. Illum et nesciunt.",
+            "avatar": "#<ActiveStorage::Attached::One:0x00000001139ee878>",
+            "extended_data": {},
+            "followers_count": 0,
+            "following_count": 0,
+            "invitations_count": 0,
+            "failed_attempts": 0,
+            "admin": false
+        },
+        {
+            "id": 15,
+            "decidim_organization_id": 1,
+            "sign_in_count": 0,
+            "personal_url": null,
+            "about": null,
+            "avatar": "#<ActiveStorage::Attached::One:0x00000001139ed090>",
+            "extended_data": {},
+            "followers_count": 0,
+            "following_count": 0,
+            "invitations_count": 0,
+            "failed_attempts": 0,
+            "admin": false
+        }
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: apikey
+  disabled: false
+  key: AUTH_TOKEN
+  value: dummy
+  addTo: header
+metaSortKey: -1672920185164
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
